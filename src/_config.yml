@@ -30,6 +30,9 @@ networks:
     url: https://github.com/
     username: cfrioux
 
+# google analytics
+analytics_id: UA-115007039-1
+
 # contacts
 contacts:
   research:
