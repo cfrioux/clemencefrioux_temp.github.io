@@ -5,7 +5,7 @@
 # base of your site relative to the root of the Web site, eg / or ""
 baseurl: ""
 # URL of your site, eg https://cfrioux.github.io
-url: "https://cfrioux.github.io/clemencefrioux_temp.github.io"
+url: "https://cfrioux.github.io"
 
 # site information
 title: Clémence Frioux
