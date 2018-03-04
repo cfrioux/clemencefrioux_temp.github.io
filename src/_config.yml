@@ -2,10 +2,10 @@
 # SITE SETTINGS
 #
 
-# base of your site relative to the root of the Web site, eg /Pascal.Poizat or ""
+# base of your site relative to the root of the Web site, eg / or ""
 baseurl: ""
-# URL of your site, eg https://pages.lip6.fr/Pascal.Poizat or http://pascalpoizat.github.io
-url: "http://cfrioux.github.io"
+# URL of your site, eg https://cfrioux.github.io
+url: "https://cfrioux.github.io"
 
 # site information
 title: Clémence Frioux
@@ -14,10 +14,6 @@ description: > # this means to ignore newlines until the next tag
   Univ Rennes 1
   Rennes, France
 author: Clémence Frioux
-# base of your site relative to the root of the Web site, eg /Pascal.Poizat or ""
-baseurl: ""
-# URL of your site, eg https://pages.lip6.fr/Pascal.Poizat or http://pascalpoizat.github.io
-url: "http://cfrioux.github.io"
 blog_dir: /blog
 permalink: /blog/posts/:year/:month/:day/:title/ # prefixed style
 category_dir: /blog/categories/
@@ -34,15 +30,12 @@ networks:
     url: https://github.com/
     username: cfrioux
 
-# bio
-bio:
-  with-logos: false
-
 # contacts
 contacts:
   research:
     email: firstname.lastname@inria.fr
     address: >
+      Inria Rennes<br/>
       Campus de Beaulieu<br/>
       263 Avenue du Général Leclerc<br/>
       35042 Rennes<br/>
@@ -58,11 +51,8 @@ research:
   presentation:
     overview: true
     publications: true
-    talks:  false
-    conferences: true
   restriction:
-      publications: 5
-      conferences: 10
+      publications: 10
 
 # apparence of posts
 

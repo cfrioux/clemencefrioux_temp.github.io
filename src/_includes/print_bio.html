@@ -14,12 +14,6 @@
         {% if item.note %}<em>{{ item.note }}</em>{% endif %}
         <br/>
         {% if item.at %}
-        {% if site.bio.with-logos and item.logo %}
-        <div class="circle-picture">
-            <img src="{{ item.logo[0] }}"
-                 style="width: {{ item.logo[1]}}; margin-left: {{ item.logo[2] }}; margin-top: {{ item.logo[3] }};"/>
-        </div>
-        {% endif %}
         {{ item.at }}<br/>
         {% endif %}
         {% if item.sub-periods %}

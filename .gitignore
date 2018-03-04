@@ -1,6 +1,7 @@
 # Jekyll
 
 **/_site/
+src/Gemfile
 **/.sass-cache/
 **/.jekyll-metadata
 
@@ -14,6 +15,3 @@
 # Global
 *~
 .DS_Store # this one, for OSX, should be global and in $HOME/.gitignore_global
-
-
-
