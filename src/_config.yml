@@ -106,7 +106,9 @@ scholar:
 
 # other settings
 exclude:  ['Gemfile*', '*.sh', 'update_site.sh']
-plugins: ['jekyll/scholar']
+plugins:
+  - jekyll-scholar
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem]
 markdown: kramdown
 highlighter: rouge
 kramdown:
