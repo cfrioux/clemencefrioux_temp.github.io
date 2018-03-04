@@ -32,6 +32,10 @@ networks:
   linkedin:
     url: https://www.linkedin.com/
     username: in/clemencefrioux
+
+# google analytics
+analytics_id: UA-115007039-1
+
 # contacts
 contacts:
   research:
