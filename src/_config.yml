@@ -23,9 +23,9 @@ category_title_prefix: "category: "
 picture: images/cfrioux.png
 email: firstname.lastname@inria.fr
 networks:
-#  twitter:
-#    url: https://twitter.com/
-#    username:
+  twitter:
+    url: https://twitter.com/
+    username: c_frioux
   github:
     url: https://github.com/
     username: cfrioux
