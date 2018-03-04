@@ -29,6 +29,9 @@ networks:
   github:
     url: https://github.com/
     username: cfrioux
+  linkedin:
+    url: https://www.linkedin.com/
+    username: in/clemencefrioux
 
 # google analytics
 analytics_id: UA-115007039-1
