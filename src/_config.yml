@@ -29,7 +29,9 @@ networks:
   github:
     url: https://github.com/
     username: cfrioux
-
+  linkedin:
+    url: https://www.linkedin.com/
+    username: in/clemencefrioux
 # contacts
 contacts:
   research:

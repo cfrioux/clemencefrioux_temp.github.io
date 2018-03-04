@@ -33,6 +33,12 @@
                         {{ site.networks.twitter.username }}
                     </a><br/>
                     {% endif %}
+                    {% if site.networks.linkedin %}
+                    <i class="fa fa-linkedin-square"></i>
+                    <a href="{{ site.networks.linkedin.username | prepend: site.networks.linkedin.url }}">
+                        {{ site.networks.linkedin.username }}
+                    </a><br/>
+                    {% endif %}
                 </p>
             </div>
         </div>
