@@ -8,4 +8,12 @@ rank: 6
     <h1>Bio</h1>
 </div>
 
-{% include print_bio.html items=site.data.bio.history %}
+<div class="row">
+  <h2><span class="text-primary">Education</span></h2>
+  {% include print_bio.html items=site.data.bio.education %}
+</div>
+
+<div class="row">
+  <h2><span class="text-primary">International collaborations</span></h2>
+  {% include print_bio.html items=site.data.bio.international %}
+</div>
