@@ -57,6 +57,7 @@ research:
   presentation:
     overview: true
     publications: true
+    software: true
   restriction:
       publications: 10
 

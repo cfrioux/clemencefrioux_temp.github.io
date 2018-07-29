@@ -37,13 +37,13 @@
                 </button>
                 <ul class="dropdown-menu">
                     {% if entry.doi %}
-                    <li><a href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a></li>
+                    <li><a target="_blank" href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a></li>
                     {% endif %}
                     {% if entry.hal_id %}
-                    <li><a href="{{ entry.hal_id | prepend: 'http://hal.inria.fr/' }}">hal</a></li>
+                    <li><a target="_blank" href="{{ entry.hal_id | prepend: 'http://hal.inria.fr/' }}">hal</a></li>
                     {% endif %}
                     {% if entry.optlink %}
-                    <li><a href="{{ entry.optlink }}">link</a></li>
+                    <li><a target="_blank" href="{{ entry.optlink }}">link</a></li>
                     {% endif %}
                 </ul>
             </div>
@@ -57,7 +57,7 @@
                 </button>
                 <ul class="dropdown-menu">
                     {% if entry.pdf %}
-                    <li><a href="{{ entry.pdf }}">pdf</a></li>
+                    <li><a target="_blank" href="{{ entry.pdf }}">pdf</a></li>
                     {% endif %}
                 </ul>
             </div>

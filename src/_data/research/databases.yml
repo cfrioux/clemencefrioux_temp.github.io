@@ -1,10 +1,10 @@
 - name: DBLP
   url: https://dblp.uni-trier.de/pers/hd/f/Frioux:Cl=eacute=mence
 
-- name: GS
+- name: Google Scholar
   url: https://scholar.google.fr/citations?user=ILXDngoAAAAJ&hl
 
-- name: RG
+- name: ResearchGate
   url: https://www.researchgate.net/profile/Clemence_Frioux
 
 - name: ORCID
