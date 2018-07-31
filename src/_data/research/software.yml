@@ -6,7 +6,7 @@
 - year: 2017
   kind: Traceable and reproducible reconstruction of metabolic networks
   name: AuReMe
-  links: <a https://hub.docker.com/r/dyliss/aureme-img/" target="_blank"><i class="fab fa-docker"></i> image</a>, <a href="https://aureme.genouest.org" target="_blank">project ↗</a>
+  links: <a href="https://hub.docker.com/r/dyliss/aureme-img/" target="_blank"><i class="fab fa-docker"></i> image</a>, <a href="https://aureme.genouest.org" target="_blank">project ↗</a>
 
 - year: 2017
   kind: Graph-based and constraint-based hybrid gap-filling of metabolic networks
@@ -22,3 +22,8 @@
   kind: Graph-based gap-filling of metabolic networks
   name: Meneco
   links: <a href="https://pypi.org/project/meneco/" target="_blank"><i class="fab fa-python"></i> package</a>, <a href="https://github.com/bioasp/meneco" target="_blank"><i class="fab fa-github"></i> project</a>
+
+- year:
+  kind:
+  name:
+  links:  
