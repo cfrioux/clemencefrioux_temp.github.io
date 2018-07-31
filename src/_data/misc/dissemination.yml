@@ -1,5 +1,9 @@
 - name: Scientific communication
   values:
+  - period: 2018
+    name: Combining size and exchange minimization enables scalable screening of microbial consortia
+    role: Poster
+    at: <a href="https://vibconferences.be/event/applied-bioinformatics-in-life-sciences-2nd-edition" target="_blank">Applied Bioinformatics in Life Sciences ABLS 2018</a>, March 8th-9th 2018, Leuven, Belgium
   - period: 2017
     name: Toward the study of metabolic functions in algal-bacterial holobionts
     role: Talk
