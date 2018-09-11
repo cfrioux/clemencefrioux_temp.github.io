@@ -1,6 +1,14 @@
 - name: Scientific communication
   values:
   - period: 2018
+    name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
+    role: Talk - <a href="https://data-access.cesgo.org/index.php/s/uNR72XZ1nVG0kf8" target="_blank">Slides</a>
+    at: <a href="http://eccb18.org/" target="_blank">European Conference on Computational Biology, ECCB 2018</a>, September 8th-12th 2018, Athens, Greece
+  - period: 2018
+    name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
+    role: Poster - <a href="https://data-access.cesgo.org/index.php/s/fAtbOuD1YGgnH34" target="_blank">PDF</a>
+    at: <a href="http://eccb18.org/" target="_blank">European Conference on Computational Biology, ECCB 2018</a>, September 8th-12th 2018, Athens, Greece
+  - period: 2018
     name: Combining size and exchange minimization enables scalable screening of microbial consortia
     role: Poster
     at: <a href="https://vibconferences.be/event/applied-bioinformatics-in-life-sciences-2nd-edition" target="_blank">Applied Bioinformatics in Life Sciences ABLS 2018</a>, March 8th-9th 2018, Leuven, Belgium
