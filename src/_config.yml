@@ -10,7 +10,7 @@ url: "https://cfrioux.github.io"
 # site information
 title: Clémence Frioux
 description: > # this means to ignore newlines until the next tag
-  PhD Student at Inria
+  PhD Computer Science
   Univ Rennes 1
   Rennes, France
 author: Clémence Frioux
@@ -56,6 +56,7 @@ contacts:
 research:
   presentation:
     overview: true
+    thesis: true
     publications: true
     software: true
   restriction:

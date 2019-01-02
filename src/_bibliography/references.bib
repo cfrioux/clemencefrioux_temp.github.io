@@ -89,6 +89,44 @@
     doi = {10.1371/journal.pcbi.1006146},
     PDF = {http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1006146&type=printable},
     HAL_ID = {hal-01819150}
+
+}
+@article {Frioux2018,
+    pp_rank = {1},
+    author = {Frioux, Cl{\'{e}}mence and Fremy, Enora and Trottier, Camille and Siegel, Anne},
+    doi = {10.1093/bioinformatics/bty588},
+    issn = {1367-4803},
+    journal = {Bioinformatics},
+    month = {sep},
+    number = {17},
+    pages = {i934--i943},
+    publisher = {Oxford University Press},
+    title = {{Scalable and exhaustive screening of metabolic functions carried out by microbial consortia}},
+    url = {https://academic.oup.com/bioinformatics/article/34/17/i934/5093211},
+    volume = {34},
+    year = {2018},
+    PDF = {https://academic.oup.com/bioinformatics/article-pdf/34/17/i934/25702201/bty588.pdf},
+    HAL_ID = {hal-01871600}
+}
+
+@article{Frioux2019,
+    abstract = {Metabolic networks play a crucial role in biology since they capture all chemical reactions in an organism. While there are networks of high quality for many model organisms, networks for less studied organisms are often of poor quality and suffer from incompleteness. To this end, we introduced in previous work an answer set programming (ASP)-based approach to metabolic network completion. Although this qualitative approach allows for restoring moderately degraded networks, it fails to restore highly degraded ones. This is because it ignores quantitative constraints capturing reaction rates. To address this problem, we propose a hybrid approach to metabolic network completion that integrates our qualitative ASP approach with quantitative means for capturing reaction rates. We begin by formally reconciling existing stoichiometric and topological approaches to network completion in a unified formalism. With it, we develop a hybrid ASP encoding and rely upon the theory reasoning capacities of the ASP system clingo for solving the resulting logic program with linear constraints over reals. We empirically evaluate our approach by means of the metabolic network of Escherichia coli . Our analysis shows that our novel approach yields greatly superior results than obtainable from purely qualitative or quantitative approaches.},
+    author = {Frioux, Cl{\'{e}}mence and Schaub, Torsten and Schellhorn, Sebastian and Siegel, Anne and Wanko, Philipp},
+    doi = {10.1017/S1471068418000455},
+    issn = {1471-0684},
+    journal = {Theory and Practice of Logic Programming},
+    keywords = {answer set programming,bioinformatics,gap-filling,hybrid solving,linear programming,metabolic network},
+    mendeley-groups = {Zotero - ASP},
+    month = {jan},
+    number = {01},
+    pages = {83--108},
+    publisher = {Cambridge University Press},
+    title = {{Hybrid metabolic network completion}},
+    url = {https://www.cambridge.org/core/product/identifier/S1471068418000455/type/journal{\_}article},
+    volume = {19},
+    year = {2019},
+    PDF = {https://arxiv.org/pdf/1808.04149.pdf},
+    OPTLINK = {http://arxiv.org/abs/1808.04149}
 }
 
 %
@@ -124,7 +162,21 @@
 % ----- MANUSCRIPTS -----
 %
 
-@article {Dittami307165,
+@phdthesis{Frioux2018,
+    abstract = {Systems biology relies on computational biology to integrate knowledge and data, for a better understanding of organisms' physiology. Challenges reside in the applicability of methods and tools to non-model organisms, for instance in marine biology. Sequencing advances and the growing importance of elucidating microbiotas' roles, have led to an increased interest into these organisms. This thesis focuses on the modeling of the metabolism through networks, and of its functionality using graphs and constraints semantics. In particular, a first part presents work on gap-filling metabolic networks in the context of non-model organisms. A graph-based method is benchmarked and validated and a hybrid one is developed using Answer Set Programming (ASP) and linear programming. Such gap-filling is applied on algae and extended to decipher putative interactions between Ectocarpus siliculosus and a symbiotic bacterium. In this direction, the second part of the thesis aims at proposing formalisms and implementation of a tool for selecting and screening communities of interest within microbiotas. It enables to scale to large microbiotas and, with a two-step approach, to suggest symbionts that fit the desired objective. The modeling supports the computation of exchanges, and solving can cover the whole solution space. Applications are presented on the human gut microbiota and the selection of bacterial communities for a brown alga. Altogether, this thesis proposes modeling, software and biological applications using graph-based semantics to support the elaboration of hypotheses for elucidating the metabolism of organisms.},
+    author = {Frioux, Cl{\'{e}}mence},
+    month = {nov},
+    publisher = {Universit{\'{e}} de Rennes 1},
+    school = {Universit{\'{e}} de Rennes 1},
+    title = {{Investigating host-microbiota cooperation with gap-filling optimization problems}},
+    url = {https://hal.inria.fr/tel-01945853},
+    year = {2018},
+    HAL_ID = {hal-01945853},
+    PDF = {https://hal.inria.fr/tel-01945853/document}
+    }
+
+
+@online {Dittami307165,
 	author = {Dittami, Simon M. and Corre, Erwan and Brillet-Gueguen, Loraine and Pontoizeau, Noe and Aite, Meziane and Avia, Komlan and Caron, Christophe and Cho, Chung Hyun and Collen, Jonas and Cormier, Alexandre and Delage, Ludovic and Doubleau, Sylvie and Frioux, Clemence and Gobet, Angelique and Gonzalez-Navarrete, Irene and Groisillier, Agnes and Herve, Cecile and Jollivet, Didier and KleinJan, Hetty and Leblanc, Catherine and Lipinska, Agnieszka P. and Liu, Xi and Marie, Dominique and Markov, Gabriel V. and Minoche, Andre E. and Monsoor, Misharl and Pericard, Pierre and Perrineau, Marie-Mathilde and Peters, Akira F. and Siegel, Anne and Simeon, Amandine and Trottier, Camille and Yoon, Hwan So and Himmelbauer, Heinz and Boyen, Catherine and Tonon, Thierry},
 	title = {The genome of Ectocarpus subulatus highlights unique mechanisms for stress tolerance in brown algae},
 	year = {2018},
@@ -132,41 +184,9 @@
 	publisher = {Cold Spring Harbor Laboratory},
 	abstract = {Brown algae are multicellular photosynthetic organisms belonging to the stramenopile lineage. They are successful colonizers of marine rocky shores world-wide. The genus Ectocarpus, and especially strain Ec32, has been established as a genetic and genomic model for brown algae. A related species, Ectocarpus subulatus Kuetzing, is characterized by its high tolerance of abiotic stress. Here we present the genome and metabolic network of a haploid male strain of E. subulatus, establishing it as a comparative model to study the genomic bases of stress tolerance in Ectocarpus. Our analyses indicate that E. subulatus has separated from Ectocarpus sp. Ec32 via allopatric speciation. Since this event, its genome has been shaped by the activity of viruses and large retrotransposons, which in the case of chlorophyll-binding proteins, may be related to the expansion of this gene family. We have identified a number of further genes that we suspect to contribute to stress tolerance in E. subulatus, including an expanded family of heat shock proteins, the reduction of genes involved in the production of halogenated defense compounds, and the presence of fewer cell wall polysaccharide-modifying enzymes. However, 96\% of genes that differed between the two examined Ectocarpus species, as well as 90\% of genes under positive selection, were found to be lineage-specific and encode proteins of unknown function. This underlines the uniqueness of brown algae with respect to their stress tolerance mechanisms as well as the significance of establishing E. subulatus as a comparative model for future functional studies.},
 	URL = {https://www.biorxiv.org/content/early/2018/04/25/307165},
+    eprinttype   = {bioarxiv},
 	eprint = {https://www.biorxiv.org/content/early/2018/04/25/307165.full.pdf},
 	journal = {bioRxiv},
-  PDF = {https://www.biorxiv.org/content/biorxiv/early/2018/04/25/307165.full.pdf}
+    PDF = {https://www.biorxiv.org/content/biorxiv/early/2018/04/25/307165.full.pdf}
 }
 
-@article {Frioux2018,
-    pp_rank = {1},
-    author = {Frioux, Cl{\'{e}}mence and Fremy, Enora and Trottier, Camille and Siegel, Anne},
-    doi = {10.1093/bioinformatics/bty588},
-    issn = {1367-4803},
-    journal = {Bioinformatics},
-    month = {sep},
-    number = {17},
-    pages = {i934--i943},
-    publisher = {Oxford University Press},
-    title = {{Scalable and exhaustive screening of metabolic functions carried out by microbial consortia}},
-    url = {https://academic.oup.com/bioinformatics/article/34/17/i934/5093211},
-    volume = {34},
-    year = {2018},
-    PDF = {https://academic.oup.com/bioinformatics/article-pdf/34/17/i934/25702201/bty588.pdf},
-    HAL_ID = {hal-01871600}
-}
-
-@article {Frioux2018_b,
-    pp_rank = {2},
-    abstract = {Metabolic networks play a crucial role in biology since they capture all chemical reactions in an organism. While there are networks of high quality for many model organisms, networks for less studied organisms are often of poor quality and suffer from incompleteness. To this end, we introduced in previous work an ASP-based approach to metabolic network completion. Although this qualitative approach allows for restoring moderately degraded networks, it fails to restore highly degraded ones. This is because it ignores quantitative constraints capturing reaction rates. To address this problem, we propose a hybrid approach to metabolic network completion that integrates our qualitative ASP approach with quantitative means for capturing reaction rates. We begin by formally reconciling existing stoichiometric and topological approaches to network completion in a unified formalism. With it, we develop a hybrid ASP encoding and rely upon the theory reasoning capacities of the ASP system clingo for solving the resulting logic program with linear constraints over reals. We empirically evaluate our approach by means of the metabolic network of Escherichia coli. Our analysis shows that our novel approach yields greatly superior results than obtainable from purely qualitative or quantitative approaches. Under consideration in Theory and Practice of Logic Programming (TPLP).},
-    archivePrefix = {arXiv},
-    arxivId = {1808.04149},
-    author = {Frioux, Cl{\'{e}}mence and Schaub, Torsten and Schellhorn, Sebastian and Siegel, Anne and Wanko, Philipp},
-    eprint = {1808.04149},
-    journal = {Theory and Practice of Logic Programming},
-    month = {aug},
-    title = {{Hybrid Metabolic Network Completion}},
-    url = {http://arxiv.org/abs/1808.04149},
-    PDF = {https://arxiv.org/pdf/1808.04149.pdf},
-    OPTLINK = {http://arxiv.org/abs/1808.04149},
-    year = {2018 in press}
-}
