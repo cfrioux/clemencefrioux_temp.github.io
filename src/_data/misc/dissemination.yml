@@ -1,5 +1,17 @@
 - name: Scientific communication
   values:
+  - period: 2019
+    name: Investigating host-microbiota cooperation with gap-filling optimization problems
+    role: Talk
+    at: Invited research team seminar<a href="https://www.qtb.hhu.de/" target="_blank"> Institute of Quantitative and Theoretical Biology, HHU </a>, January 2019, Düsseldorf, Germany
+  - period: 2018
+    name: Investigating host-microbiota cooperation with gap-filling optimization problems
+    role: Talk
+    at:  Invited research team seminar <a href="https://bioinfo.lri.fr" target="_blank"> Bioinformatics research group, LRI </a>, November 2018, Orsay, France
+  - period: 2018
+    name: Scalable and exhaustive screening of metabolic functions in microbiotas
+    role: Talk
+    at: Invited research team seminar <a href="http://biologia.uc.cl/es/cuerpo-academico/profesor/45" target="_blank">Departamento de Ecología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile </a>, November 2018, Santiago, Chile
   - period: 2018
     name: Scalable and exhaustive screening of metabolic functions in microbiotas
     role: Talk
@@ -16,6 +28,18 @@
     name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
     role: Poster - <a href="https://data-access.cesgo.org/index.php/s/fAtbOuD1YGgnH34" target="_blank">PDF</a>
     at: <a href="http://eccb18.org/" target="_blank">European Conference on Computational Biology, ECCB 2018</a>, September 8th-12th 2018, Athens, Greece
+  - period: 2018
+    name: Scalable and exhaustive screening of metabolic functions in microbiotas
+    role: Talk
+    at: Invited research team seminar <a href="http://www.ican-institute.org/team/umr_s872team-7-nutriomics-nutrition-obesity-systemic-approaches/" target="_blank"> UMR Nutriomics, ICAN </a>, October 2018, Paris, France
+  - period: 2018
+    name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
+    role: Talk
+    at: <a href="https://js.univ-nantes.fr/navigation/cl10-systems-ecology-which-advances-towards-ecosystems-understanding--2184302.kjsp?RH=1486401620746" target="_blank">Journées scientifiques de Nantes 2018</a>, June 2018, Nantes, France
+  - period: 2018
+    name: Combinatorial approaches for interactions prediction and community selection in holobionts.
+    role: Poster
+    at: <a href="https://www.biogenouest.org/contenu/gen2bio/gen2bio-2018" target="_blank">Gen2Bio 2018</a>, March 2018, Rennes, France
   - period: 2018
     name: Combining size and exchange minimization enables scalable screening of microbial consortia
     role: Poster

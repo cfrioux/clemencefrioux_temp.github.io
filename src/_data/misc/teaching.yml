@@ -13,12 +13,17 @@
 
 - name: Supervising
   values:
+  - period: 2019
+    name: Margot Wagner
+    role: Analysis of brown algae and microbiota's physiological response to varying growth conditions.
+    at: Master 2 (6 months)  <a href="https://osur.univ-rennes1.fr/MODE/" target="_blank">Modélisation en écologie</a>, Université de Rennes 1
+
   - period: 2018
     name: Enora Fremy
     role: In silico prediction of brown-algal bacterial interactions
-    at: Master 2  <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Université de Rennes 1
+    at: Master 2 (6 months) <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Université de Rennes 1
 
   - period: 2017
     name: Claire Lippold
     role: Exploration and characterization of the microbiome associated to <em>Ectocarpus subulatus</em> str. BFT
-    at: Master 1 <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Université de Rennes 1
+    at: Master 1 (3 months) <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Université de Rennes 1
