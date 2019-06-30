@@ -1,3 +1,8 @@
+- year: 2019
+  kind: Automatic metabolic network reconstruction with Pathway Tools and graph-based analysis of metabolic capabilities for the collection of networks, individually and collectively
+  name: Metage2Metabo
+  links: <a href="https://pypi.org/project/Metage2Metabo/" target="_blank"><i class="fab fa-python"></i> package</a>, <a href="https://github.com/AuReMe/metage2metabo" target="_blank"><i class="fab fa-github"></i> project</a>
+
 - year: 2018
   kind: Screening of microbiota metabolic capabilities and selection of minimal (minimal-size, minimal-exchanges) communities
   name: MiSCoTO

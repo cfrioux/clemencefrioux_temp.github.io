@@ -10,9 +10,9 @@ url: "https://cfrioux.github.io"
 # site information
 title: Clémence Frioux
 description: > # this means to ignore newlines until the next tag
-  PhD Computer Science
-  Univ Rennes 1
-  Rennes, France
+  Post-doc
+  Quadram Institute
+  Norwich, UK
 author: Clémence Frioux
 blog_dir: /blog
 permalink: /blog/posts/:year/:month/:day/:title/ # prefixed style
@@ -21,7 +21,7 @@ category_title_prefix: "category: "
 
 # author information
 picture: https://pbs.twimg.com/profile_images/970296961726283777/Hd0L7-N6_400x400.jpg
-email: firstname.lastname@inria.fr
+email: firstname.lastname@quadram.ac.uk
 networks:
   twitter:
     url: https://twitter.com/
@@ -39,15 +39,15 @@ analytics_id: UA-115007039-1
 # contacts
 contacts:
   research:
-    email: firstname.lastname@inria.fr
+    email: firstname.lastname@quadram.ac.uk
     address: >
-      Inria Rennes<br/>
-      Campus de Beaulieu<br/>
-      263 Avenue du Général Leclerc<br/>
-      35042 Rennes<br/>
-      France
+      Quadram Instute of Bioscience<br/>
+      Colney Lane<br/>
+      Norwich, England<br/>
+      NR4 7GJ<br/>
+      United Kingdom
     direction:
-      map: https://goo.gl/maps/J29f2hQQ1wx
+      map: https://goo.gl/maps/1ae5AX1A14xWoaNJ6
       public_transportation:
         stop:
         link:

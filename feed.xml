@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clémence Frioux</title>
-    <description>PhD Computer Science Univ Rennes 1 Rennes, France
+    <description>Post-doc Quadram Institute Norwich, UK
 </description>
     <link>https://cfrioux.github.io/</link>
     <atom:link href="https://cfrioux.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Feb 2019 12:48:39 +0100</pubDate>
-    <lastBuildDate>Sun, 10 Feb 2019 12:48:39 +0100</lastBuildDate>
+    <pubDate>Sun, 30 Jun 2019 11:45:56 +0100</pubDate>
+    <lastBuildDate>Sun, 30 Jun 2019 11:45:56 +0100</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
   </channel>
