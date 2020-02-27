@@ -10,9 +10,9 @@ url: "https://cfrioux.github.io"
 # site information
 title: Clémence Frioux
 description: > # this means to ignore newlines until the next tag
-  Post-doc
-  Quadram Institute
-  Norwich, UK
+  Junior researcher
+  Inria
+  Bordeaux, France
 author: Clémence Frioux
 blog_dir: /blog
 permalink: /blog/posts/:year/:month/:day/:title/ # prefixed style
@@ -21,7 +21,7 @@ category_title_prefix: "category: "
 
 # author information
 picture: https://pbs.twimg.com/profile_images/970296961726283777/Hd0L7-N6_400x400.jpg
-email: firstname.lastname@quadram.ac.uk
+email: firstname.lastname@inria.fr
 networks:
   twitter:
     url: https://twitter.com/
@@ -39,15 +39,14 @@ analytics_id: UA-115007039-1
 # contacts
 contacts:
   research:
-    email: firstname.lastname@quadram.ac.uk
+    email: firstname.lastname@inria.fr
     address: >
-      Quadram Instute of Bioscience<br/>
-      Colney Lane<br/>
-      Norwich, England<br/>
-      NR4 7GJ<br/>
-      United Kingdom
+      Inria Bordeaux Sud-Ouest<br/>
+      200 avenue de la Vieille Tour<br/>
+      33405 Talence<br/>
+      France
     direction:
-      map: https://goo.gl/maps/1ae5AX1A14xWoaNJ6
+      map: https://www.openstreetmap.org/way/182389279
       public_transportation:
         stop:
         link:

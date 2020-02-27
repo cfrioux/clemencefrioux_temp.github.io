@@ -2,7 +2,7 @@
   values:
   - period: 2017-2018
     name: Licence
-    role: Algorithmique et programmation, latex, suivi de projet Python, optimisation
+    role: Algorithmique et programmation, LaTeX, suivi de projet Python, optimisation
     at: <a href="http://www.ensai.fr/" target="_blank">ENSAI</a>
 
   - period: 2017-2018
@@ -13,6 +13,16 @@
 
 - name: Supervising
   values:
+  - period: 2020
+    name: Maxime Lecomte
+    role: 
+    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Université de Bordeaux
+
+  - period: 2020
+    name: Ariane Badoual
+    role: 
+    at: Master 2 (6 months) <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Université de Rennes 1
+
   - period: 2019
     name: Margot Wagner
     role: Analysis of brown algae and microbiota's physiological response to varying growth conditions.

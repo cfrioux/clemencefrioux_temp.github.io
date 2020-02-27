@@ -1,5 +1,13 @@
 - name: Scientific communication
   values:
+  - period: 2020
+    name: Gap-filling metabolism in systems biology and microbial systems ecology
+    role: Talk
+    at: BioNum Seminar — LaBRI </a>, February 2020, Bordeaux, France
+  - period: 2019
+    name: Investigating host-microbiota cooperation with gap-filling optimization problems
+    role: Talk
+    at: Invited seminar<a href="https://quadram.ac.uk/" target="_blank"> Quadram Institute of Biosciences </a>, May 2019, Norwich, UK
   - period: 2019
     name: Investigating host-microbiota cooperation with gap-filling optimization problems
     role: Talk
@@ -63,6 +71,10 @@
 
 - name: Scientific popularizarion
   values:
+  - period: 2019
+    name: <a href="https://norwichsciencefestival.co.uk/about/norwich-science-festival-2019/" target="_blank"> "Microbes of the gut, the good and the bad in us" </a>
+    role: Presentation of research on the gut microbiota by scientists of the <a href="https://quadram.ac.uk/" target="_blank">Quadram Institute</a> and the <a href="https://www.earlham.ac.uk/" target="_blank">Earlham Institute</a>
+    at:  <a href="https://norwichsciencefestival.co.uk/" target="_blank">Norwich Science Festival</a>, October 2019 — Norwich, UK
   - period: 2016
     name: <a href="http://dai.ly/x4a2r5b" target="_blank">Une petite histoire de symbiose(s)</a>
     role: 2nd jury prize

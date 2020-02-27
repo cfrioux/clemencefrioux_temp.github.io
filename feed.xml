@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clémence Frioux</title>
-    <description>Post-doc Quadram Institute Norwich, UK
+    <description>Junior researcher Inria Bordeaux, France
 </description>
     <link>https://cfrioux.github.io/</link>
     <atom:link href="https://cfrioux.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 30 Jun 2019 11:45:56 +0100</pubDate>
-    <lastBuildDate>Sun, 30 Jun 2019 11:45:56 +0100</lastBuildDate>
-    <generator>Jekyll v3.7.3</generator>
+    <pubDate>Thu, 27 Feb 2020 16:11:00 +0100</pubDate>
+    <lastBuildDate>Thu, 27 Feb 2020 16:11:00 +0100</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
     
   </channel>
 </rss>
