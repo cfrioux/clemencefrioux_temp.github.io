@@ -9,16 +9,6 @@ rank: 2
 {% include research_overview.html %}
 {% endif %}
 
-{% if site.research.presentation.thesis %}
-<h2><span class="text-primary">Thesis</span></h2>
-{% include research_thesis.html %}
-{% endif %}
-
-{% if site.research.presentation.software %}
-<h2><span class="text-primary">Software</span></h2>
-{% include software.html %}
-{% endif %}
-
 <div class="row">
     <div class="col-md-12">
         {% if site.research.presentation.publications %}
@@ -37,3 +27,13 @@ rank: 2
         {% endif %}
     </div>
 </div>
+
+{% if site.research.presentation.software %}
+<h2><span class="text-primary">Software</span></h2>
+{% include software.html %}
+{% endif %}
+
+{% if site.research.presentation.thesis %}
+<h2><span class="text-primary">Thesis</span></h2>
+{% include research_thesis.html %}
+{% endif %}
