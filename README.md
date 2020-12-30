@@ -1,3 +1,17 @@
-# cfrioux.github.io
+# Personal website
 
-[Web site](https://cfrioux.github.io)
+Hosted on [cfrioux.github.io](https://cfrioux.github.io)
+
+## Local build
+
+```
+cd src/
+./run-jekyll-local-as-github.sh 
+```
+
+## Deployment
+
+Using [Github Actions](https://github.com/cfrioux/cfrioux.github.io/blob/master/.github/workflows/publish-to-github-pages.yaml)
+
+* Following a push on the `master` branch
+* Building on `gh-pages` branch (configured in Settings → Options → Source of the repository)
