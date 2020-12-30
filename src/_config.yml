@@ -60,6 +60,7 @@ research:
     software: true
   restriction:
       publications: 10
+      latest: 1
 
 # apparence of posts
 

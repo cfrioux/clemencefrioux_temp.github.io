@@ -18,12 +18,16 @@ layout: index
         </div> <!-- information row -->
         <div class="row text-center">
             <hr class="light">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <h4><strong>Research interests</strong></h4>
                 <p class="text-muted">
                     Computational biology<br/>
                     Systems biology<br/>
                     Answer Set Programming<br/>
+                    Metabolic modelling<br/>
+                    Microbial communities<br/>
+                    Gut microbiome<br/>
+                    Marine biology
                     &nbsp;
                 </p>
                 <a href="/research">
@@ -31,13 +35,11 @@ layout: index
                     </button>
                 </a>
             </div>
-            <div class="col-sm-6">
-                <h4><strong>Applications</strong></h4>
+            <div class="col-sm-8">
+                <h4><strong>Latest publications</strong></h4>
                 <p class="text-muted">
-                    Metabolic modelling<br/>
-                    Microbial communities<br/>
-                    Gut microbiome<br/>
-                    Marine biology
+                    {% assign interval=site.research.restriction.latest %}
+                    {% include latest_publications.html nbyears=interval %}            
                 </p>
                 <a href="/research">
                     <button class="btn {{ site.link_btn_color }}">learn more <i class="fa fa-chevron-circle-right"></i>
