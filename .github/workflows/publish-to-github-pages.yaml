@@ -21,6 +21,7 @@ jobs:
       # Invoke this action against the newly checked out source code.
       - uses: fabacab/jekyll-builder-for-github-pages-action@master
         with:
+          pre_build_commands: cd src
           # Provide this action with your repository's `GH_PAGES_TOKEN`
           # "Secret" variable. This should be the value of a personal
           # access token granted, at a minimum, the `public_repo` and
